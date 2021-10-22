@@ -3,3 +3,7 @@
 ## Node Version
 
 v12.17.0
+
+## 构建方式
+
+jenkins
