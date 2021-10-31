@@ -4,7 +4,7 @@ import 'bulma/css/bulma.min.css';
 
 import './App.css';
 
-function App() {
+function About() {
   return (
     <div className="App">
       <Card style={{ width: 500, margin: 'auto' }}>
@@ -40,4 +40,4 @@ function App() {
   );
 }
 
-export default App;
+export default About;
