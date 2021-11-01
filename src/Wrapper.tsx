@@ -13,10 +13,19 @@ import Content from './package/Content';
 const ContainerWrapper = styled.div`
     display: flex;
    align-items: center;
+   padding: 14px;
+  
+   .logo {
+       width: 120px;
+       height: 120px;
+       border-radius: 50%;
+       background-color: #f8f8f8;
+   }
    .title {
+    margin-left: 20px;
     font-size: 20px;
     font-weight: 500;
-    color: rgba(0,0,0,.9);
+    color: #f8f8f8;
    }
 `;
 

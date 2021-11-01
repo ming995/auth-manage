@@ -5,7 +5,7 @@ const ContentWrapper = styled.div`
   align-items: center;
   justify-content: center;
   font-size: 300px;
-  color: #193498;
+  color: #f8f8f8;
 `;
 
 export default ContentWrapper;
