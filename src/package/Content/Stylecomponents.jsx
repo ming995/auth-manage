@@ -4,7 +4,7 @@ const ContentWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 300px;
+  font-size: 100px;
   color: #f8f8f8;
 `;
 
