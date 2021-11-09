@@ -55,6 +55,7 @@
     "postcss-safe-parser": "5.0.2",
     "prompts": "2.4.0",
     "react": "^17.0.2",
+    "react-amap": "^1.2.8",
     "react-app-polyfill": "^2.0.0",
     "react-bulma-components": "^4.0.7",
     "react-dev-utils": "^11.0.3",
