@@ -8,6 +8,7 @@ import {
 import styled from 'styled-components';
 
 import About from './package/About';
+import DongMan from './package/DongMan';
 import Content from './package/Content';
 
 const ContainerWrapper = styled.div`
@@ -44,6 +45,9 @@ export default function WrapperContainer() {
                 <Link to="/about">
                     <span className='title'>About me</span>
                 </Link>
+                <Link to="/dongman">
+                    <span className='title'>动漫</span>
+                </Link>
 
             </ContainerWrapper>
             <Switch>
@@ -52,6 +56,9 @@ export default function WrapperContainer() {
                 </Route>
                 <Route path="/about">
                     <About />
+                </Route>
+                <Route path="/dongman">
+                    <DongMan />
                 </Route>
             </Switch>
         </>
