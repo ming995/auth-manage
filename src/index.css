@@ -9,8 +9,8 @@ body {
 }
 
 html, body, #root {
-  background-color: rgb(0, 47, 167);
   height: 100%;
+  padding: 14px;
  }
 
 code {

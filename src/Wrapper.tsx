@@ -14,7 +14,6 @@ import Content from './package/Content';
 const ContainerWrapper = styled.div`
     display: flex;
    align-items: center;
-   padding: 14px;
   
    .logo {
        width: 120px;
@@ -24,9 +23,7 @@ const ContainerWrapper = styled.div`
    }
    .title {
     margin-left: 20px;
-    font-size: 20px;
-    font-weight: 500;
-    color: #f8f8f8;
+    font-size: 1em;
    }
 `;
 
@@ -35,13 +32,7 @@ export default function WrapperContainer() {
     return (
         <>
             <ContainerWrapper>
-                <img
-                    className='logo'
-                    alt="Bulma: a modern CSS framework based on Flexbox"
-                    height="500"
-                    src="https://yanminghou.pek3b.qingstor.com/photo/undraw_Programmer_re_owql.png"
-                    width="112"
-                />
+               <span>Insomniac</span>
                 <Link to="/about">
                     <span className='title'>About me</span>
                 </Link>

@@ -2,15 +2,13 @@ import styled from "styled-components";
 
 const ContentWrapper = styled.div`
   display: flex;
-  font-size: 100px;
-  color: #f8f8f8;
+  flex-direction: column;
   /* padding: 10px; */
 
-  .map-wrapper {
-    flex: 1;
-    background-color: #ffffff;
-    /* width: 700px; */
-    height: 900px;
+  .photo-warpper {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
   }
 `;
 
