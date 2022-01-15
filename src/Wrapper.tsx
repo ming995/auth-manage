@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
     BrowserRouter as Router,
     Switch,
@@ -29,6 +29,26 @@ const ContainerWrapper = styled.div`
 
 
 export default function WrapperContainer() {
+
+    useEffect(() => {
+        const isPCFlag = isPC();
+        localStorage.setItem('INSOMNIAC_PC_FLAG', `${isPCFlag}`);
+    })
+
+    const isPC = () => { //是否为PC端
+        let userAgentInfo = navigator.userAgent;
+        let Agents = ["Android", "iPhone",
+                    "SymbianOS", "Windows Phone",
+                    "iPad", "iPod"];
+        let flag = true;
+        for (let v = 0; v < Agents.length; v++) {
+            if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                flag = false;
+                break;
+            }
+        }
+        return flag;
+    }
     return (
         <>
             <ContainerWrapper>

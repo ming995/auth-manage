@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const PhotoBoxWrapper = styled.div`
-    width: 50%;
-    height: 50%;
+    width: ${props => localStorage.getItem('INSOMNIAC_PC_FLAG') === 'true' ? '50%' : '100%'};
+    height: ${props => localStorage.getItem('INSOMNIAC_PC_FLAG') === 'true' ? '50%' : '100%'};;
     margin-top: 10px;
     padding: 10px;
     border: 1px solid rgba(0,0,0,.1);
